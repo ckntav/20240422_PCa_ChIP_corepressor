@@ -1,0 +1,17 @@
+sample_name	condition	antibody	cell_line	batch_folder	fastq_R1_filename	fastq_R1_filepath	fastq_R2_filename	fastq_R2_filepath
+LNCaP-XIP_DMSO_H3K27ac	DMSO	H3K27ac	LNCaP-XIP	raw_fastq	SRR19639165_1.fastq.gz	raw_fastq/SRR19639165_1.fastq.gz	SRR19639165_2.fastq.gz	raw_fastq/SRR19639165_2.fastq.gz
+LNCaP-XIP_BG15n_H3K27ac	BG15n	H3K27ac	LNCaP-XIP	raw_fastq	SRR19639164_1.fastq.gz	raw_fastq/SRR19639164_1.fastq.gz	SRR19639164_2.fastq.gz	raw_fastq/SRR19639164_2.fastq.gz
+LNCaP-XIP_DMSO_AR	DMSO	AR	LNCaP-XIP	raw_fastq	SRR19639163_1.fastq.gz	raw_fastq/SRR19639163_1.fastq.gz	SRR19639163_2.fastq.gz	raw_fastq/SRR19639163_2.fastq.gz
+LNCaP-XIP_BG15n_AR	BG15n	AR	LNCaP-XIP	raw_fastq	SRR19639162_1.fastq.gz	raw_fastq/SRR19639162_1.fastq.gz	SRR19639162_2.fastq.gz	raw_fastq/SRR19639162_2.fastq.gz
+LNCaP_DMSO_SMRT	DMSO	SMRT	LNCaP	raw_fastq	SRR19639161_1.fastq.gz	raw_fastq/SRR19639161_1.fastq.gz	SRR19639161_2.fastq.gz	raw_fastq/SRR19639161_2.fastq.gz
+LNCaP_BG15n_SMRT	BG15n	SMRT	LNCaP	raw_fastq	SRR19639160_1.fastq.gz	raw_fastq/SRR19639160_1.fastq.gz	SRR19639160_2.fastq.gz	raw_fastq/SRR19639160_2.fastq.gz
+LNCaP_DMSO_NCOR1	DMSO	NCOR1	LNCaP	raw_fastq	SRR19639152_1.fastq.gz	raw_fastq/SRR19639152_1.fastq.gz	SRR19639152_2.fastq.gz	raw_fastq/SRR19639152_2.fastq.gz
+LNCaP_BG15n_NCOR1	BG15n	NCOR1	LNCaP	raw_fastq	SRR19639151_1.fastq.gz	raw_fastq/SRR19639151_1.fastq.gz	SRR19639151_2.fastq.gz	raw_fastq/SRR19639151_2.fastq.gz
+22Rv1_DMSO_SMRT	DMSO	SMRT	22Rv1	raw_fastq	SRR19639150_1.fastq.gz	raw_fastq/SRR19639150_1.fastq.gz	SRR19639150_2.fastq.gz	raw_fastq/SRR19639150_2.fastq.gz
+22Rv1_BG15n_SMRT	BG15n	SMRT	22Rv1	raw_fastq	SRR19639149_1.fastq.gz	raw_fastq/SRR19639149_1.fastq.gz	SRR19639149_2.fastq.gz	raw_fastq/SRR19639149_2.fastq.gz
+22Rv1_DMSO_NCOR1	DMSO	NCOR1	22Rv1	raw_fastq	SRR19639148_1.fastq.gz	raw_fastq/SRR19639148_1.fastq.gz	SRR19639148_2.fastq.gz	raw_fastq/SRR19639148_2.fastq.gz
+22Rv1_BG15n_NCOR1	BG15n	NCOR1	22Rv1	raw_fastq	SRR19639147_1.fastq.gz	raw_fastq/SRR19639147_1.fastq.gz	SRR19639147_2.fastq.gz	raw_fastq/SRR19639147_2.fastq.gz
+LAMP_DMSO_H3K27ac	DMSO	H3K27ac	LAMP	raw_fastq	SRR19639146.fastq.gz	raw_fastq/SRR19639146.fastq.gz		
+LAMP_ENZA_H3K27ac	ENZA	H3K27ac	LAMP	raw_fastq	SRR19639145.fastq.gz	raw_fastq/SRR19639145.fastq.gz		
+LAMP_R1881_H3K27ac	R1881	H3K27ac	LAMP	raw_fastq	SRR19639144.fastq.gz	raw_fastq/SRR19639144.fastq.gz		
+LAMP_BG15n_H3K27ac	BG15n	H3K27ac	LAMP	raw_fastq	SRR19639143.fastq.gz	raw_fastq/SRR19639143.fastq.gz		
