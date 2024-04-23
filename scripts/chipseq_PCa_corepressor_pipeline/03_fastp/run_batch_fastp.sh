@@ -1,0 +1,4 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_PCa_corepressor_pipeline/03_fastp/batch_sh/fastp_LNCaP_DMSO_SMRT.sh
+sbatch scripts/chipseq_PCa_corepressor_pipeline/03_fastp/batch_sh/fastp_LNCaP_DMSO_NCOR1.sh

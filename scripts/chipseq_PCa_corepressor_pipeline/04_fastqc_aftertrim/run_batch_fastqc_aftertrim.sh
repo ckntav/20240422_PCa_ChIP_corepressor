@@ -1,0 +1,6 @@
+#!/bin/sh
+
+sbatch scripts/chipseq_PCa_corepressor_pipeline/04_fastqc_aftertrim/batch_sh/fastqc_aftertrim_LNCaP_DMSO_SMRT_R1.sh
+sbatch scripts/chipseq_PCa_corepressor_pipeline/04_fastqc_aftertrim/batch_sh/fastqc_aftertrim_LNCaP_DMSO_SMRT_R2.sh
+sbatch scripts/chipseq_PCa_corepressor_pipeline/04_fastqc_aftertrim/batch_sh/fastqc_aftertrim_LNCaP_DMSO_NCOR1_R1.sh
+sbatch scripts/chipseq_PCa_corepressor_pipeline/04_fastqc_aftertrim/batch_sh/fastqc_aftertrim_LNCaP_DMSO_NCOR1_R2.sh

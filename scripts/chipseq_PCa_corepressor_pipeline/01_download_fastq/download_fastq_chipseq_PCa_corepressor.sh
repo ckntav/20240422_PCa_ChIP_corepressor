@@ -1,5 +1,5 @@
-mkdir -p /home/chris11/scratch/20240422_PCa_ChIP_corepressor/chipseq_PCa_corepressor/raw_fastq
-cd /home/chris11/scratch/20240422_PCa_ChIP_corepressor/chipseq_PCa_corepressor/raw_fastq
+mkdir -p /home/chris11/scratch/20240422_PCa_ChIP_corepressor/raw/chipseq_PCa_corepressor/raw_fastq
+cd /home/chris11/scratch/20240422_PCa_ChIP_corepressor/raw/chipseq_PCa_corepressor/raw_fastq
 
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR196/065/SRR19639165/SRR19639165_1.fastq.gz -o dl_fastq_SRR19639165_1.log &
 wget ftp://ftp.sra.ebi.ac.uk/vol1/fastq/SRR196/065/SRR19639165/SRR19639165_2.fastq.gz -o dl_fastq_SRR19639165_2.log &
