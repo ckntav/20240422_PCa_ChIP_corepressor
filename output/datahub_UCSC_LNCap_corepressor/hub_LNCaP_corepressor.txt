@@ -1,0 +1,6 @@
+hub LNCaP_corepressor
+shortLabel LNCaP_corepressor
+longLabel LNCaP_corepressor
+genomesFile genomes_LNCaP_corepressor.txt
+email christophe.tav@crchudequebec.ulaval.ca
+descriptionUrl

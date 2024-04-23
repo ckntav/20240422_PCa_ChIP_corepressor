@@ -1,0 +1,41 @@
+track LNCaP_DMSO_NCOR1
+bigDataUrl LNCaP_DMSO_NCOR1_RPKM_mate1.bw
+shortLabel LNCaP_DMSO_NCOR1
+longLabel LNCaP_DMSO_NCOR1
+type bigWig
+autoScale on
+alwaysZero on
+visibility full
+color 23, 165, 137
+maxHeightPixels 100:75:8
+
+track LNCaP_DMSO_SMRT
+bigDataUrl LNCaP_DMSO_SMRT_RPKM_mate1.bw
+shortLabel LNCaP_DMSO_SMRT
+longLabel LNCaP_DMSO_SMRT
+type bigWig
+autoScale on
+alwaysZero on
+visibility full
+color 255, 166, 0
+maxHeightPixels 100:75:8
+
+track LNCaP_DMSO_NCOR1_peaks
+bigDataUrl LNCaP_DMSO_NCOR1.NCOR1_peaks.narrowPeak.stdchr.bb
+shortLabel LNCaP_DMSO_NCOR1_peaks
+longLabel LNCaP_DMSO_NCOR1_peaks
+type bigBed
+autoScale on
+visibility dense
+color 23, 165, 137
+
+track LNCaP_DMSO_SMRT_peaks
+bigDataUrl LNCaP_DMSO_SMRT.SMRT_peaks.narrowPeak.stdchr.bb
+shortLabel LNCaP_DMSO_SMRT_peaks
+longLabel LNCaP_DMSO_SMRT_peaks
+type bigBed
+autoScale on
+visibility dense
+color 255, 166, 0
+
+
