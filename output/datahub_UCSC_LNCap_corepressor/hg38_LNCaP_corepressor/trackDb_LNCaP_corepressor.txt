@@ -37,5 +37,3 @@ type bigBed
 autoScale on
 visibility dense
 color 255, 166, 0
-
-
