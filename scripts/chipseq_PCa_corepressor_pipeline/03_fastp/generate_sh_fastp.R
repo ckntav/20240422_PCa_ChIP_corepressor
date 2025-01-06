@@ -7,9 +7,7 @@ library(tidyverse)
 #
 fastq_list_filename <- "chipseq_PCA_corepressor_fastq_list.txt"
 df <- read_tsv(file.path("input", "chipseq_PCa_corepressor", fastq_list_filename)) %>% 
-  dplyr::filter(type == "PAIRED_END",
-                cell_line == "LNCaP",
-                condition == "DMSO") 
+  dplyr::filter(cell_line == "LNCaP") 
 fastq_folder <- "chipseq_PCa_corepressor"
 output_pipeline_dir <- "chip-pipeline_PCA_corepressor-GRCh38"
 script_pipeline_dir <- "chipseq_PCa_corepressor_pipeline"

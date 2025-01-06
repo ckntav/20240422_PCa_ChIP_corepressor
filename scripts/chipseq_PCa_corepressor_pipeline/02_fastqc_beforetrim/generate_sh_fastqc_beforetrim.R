@@ -6,7 +6,8 @@ library(tidyverse)
 
 #
 fastq_list_filename <- "chipseq_PCA_corepressor_fastq_list.txt"
-df <- read_tsv(file.path("input", "chipseq_PCa_corepressor", fastq_list_filename))
+df <- read_tsv(file.path("input", "chipseq_PCa_corepressor", fastq_list_filename)) %>% 
+  dplyr::filter(cell_line %in% c("LNCap", "22Rv1"))
 fastq_folder <- "chipseq_PCa_corepressor/raw_fastq"
 output_pipeline_dir <- "chip-pipeline_PCA_corepressor-GRCh38"
 script_pipeline_dir <- "chipseq_PCa_corepressor_pipeline"
@@ -23,7 +24,7 @@ header_sh <- c("#!/bin/sh",
                "#SBATCH --mail-user=christophe.tav@gmail.com",
                "#SBATCH --mail-type=ALL")
 
-fastqc_path <- "/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/fastqc/0.11.9/fastqc"
+fastqc_path <- "/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/fastqc/0.12.1/fastqc"
 
 for (i in 1:nrow(df)) {
   sample_name <- df$sample_name[i]

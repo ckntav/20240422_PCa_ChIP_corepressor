@@ -12,4 +12,4 @@
 mkdir -p /home/chris11/projects/def-stbil30/chris11/20240422_PCa_ChIP_corepressor/output/chip-pipeline_PCA_corepressor-GRCh38/fastqc_beforetrim_output/LNCaP_DMSO_SMRT_R2
 
 
-/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/fastqc/0.11.9/fastqc --outdir /home/chris11/projects/def-stbil30/chris11/20240422_PCa_ChIP_corepressor/output/chip-pipeline_PCA_corepressor-GRCh38/fastqc_beforetrim_output/LNCaP_DMSO_SMRT_R2 --format fastq /home/chris11/projects/def-stbil30/chris11/20240422_PCa_ChIP_corepressor/raw/chipseq_PCa_corepressor/raw_fastq/SRR19639161_2.fastq.gz
+/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/fastqc/0.12.1/fastqc --outdir /home/chris11/projects/def-stbil30/chris11/20240422_PCa_ChIP_corepressor/output/chip-pipeline_PCA_corepressor-GRCh38/fastqc_beforetrim_output/LNCaP_DMSO_SMRT_R2 --format fastq /home/chris11/projects/def-stbil30/chris11/20240422_PCa_ChIP_corepressor/raw/chipseq_PCa_corepressor/raw_fastq/SRR19639161_2.fastq.gz

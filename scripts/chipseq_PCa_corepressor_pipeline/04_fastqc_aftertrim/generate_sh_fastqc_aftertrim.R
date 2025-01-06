@@ -26,7 +26,8 @@ header_sh <- c("#!/bin/sh",
                "#SBATCH --mail-user=christophe.tav@gmail.com",
                "#SBATCH --mail-type=ALL")
 
-fastqc_path <- "/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/fastqc/0.11.9/fastqc"
+# fastqc_path <- "/cvmfs/soft.computecanada.ca/easybuild/software/2020/Core/fastqc/0.11.9/fastqc"
+fastqc_path <- "/cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v3/Core/fastqc/0.12.1/fastqc"
 
 for (i in 1:nrow(df)) {
   sample_name <- df$sample_name[i]
